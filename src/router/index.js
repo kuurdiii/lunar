@@ -5,6 +5,8 @@ import About from '../views/About'
 import ButtonPage from '../views/ButtonPage'
 import ServicePage from '../views/ServicePage'
 import ServiceDetailsPage from '../views/ServiceDetailsPage'
+import ServiceBranding from '../views/ServiceBranding'
+import ServiceSEO from '../views/ServiceSEO'
 import CounterUpPage from '../views/CounterUpPage'
 import ProgressbarPage from '../views/ProgressbarPage'
 import AccordionPage from '../views/AccordionPage'
@@ -77,6 +79,22 @@ const routes = [
         path: '/service-details',
         name: 'Service Details',
         component: ServiceDetailsPage,
+        meta: {
+            title: 'Service Details || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/service-branding',
+        name: 'Service Branding',
+        component: ServiceBranding,
+        meta: {
+            title: 'Service Details || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/service-seo',
+        name: 'Service SEO',
+        component: ServiceSEO,
         meta: {
             title: 'Service Details || Doob Business and Consulting Bootstrap5 Template',
         },
@@ -350,13 +368,13 @@ const routes = [
 const router = new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,
-    routes
+    routes,
 })
 
 router.beforeEach((to, from, next) => {
-    document.title = to.meta.title;
-    next();
+    document.title = to.meta.title
+    next()
     window.scrollTo(0, 0)
-});
+})
 
 export default router

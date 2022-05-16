@@ -11,24 +11,24 @@
                                     class="subtitle theme-gradient"
                                     data-aos="fade-up"
                                     data-aos-delay="100"
-                                    >Hello! This is WebAgency</span
+                                    >Lunar Labs Media</span
                                 >
                                 <h1
                                     class="title"
                                     data-aos="fade-up"
                                     data-aos-delay="150"
                                 >
-                                    Our Web <br />
-                                    Agecny Plan.
+                                    Creating Value <br />
+                                    Through Interfaces
                                 </h1>
                                 <p
                                     class="description"
                                     data-aos="fade-up"
                                     data-aos-delay="200"
                                 >
-                                    We help our clients succeed by creating
-                                    brand identities, <br />
-                                    digital experiences, and print materials.
+                                    Getting you up and running, and keeping you
+                                    evolving to meet changing trends, is
+                                    effortless with us.
                                 </p>
                                 <div
                                     class="button-group mt--30"
@@ -63,8 +63,8 @@
                     <div class="col-lg-12">
                         <div class="thumbnail" data-aos="fade-up">
                             <img
-                                class="radius w-100"
-                                src="../assets/images/bg/bg-image-21.jpg"
+                                class="radius hero-bg w-100"
+                                src="../assets/images/bg/1876.jpg"
                                 alt="Images"
                             />
                         </div>
