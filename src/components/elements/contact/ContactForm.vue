@@ -1,11 +1,14 @@
 <template>
     <form
-        netlify
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
         name="contact"
+        method="post"
         class="contact-form-1"
-        action=""
         @submit="sendEmail"
     >
+        <input type="hidden" name="form-name" value="contact" />
+
         <div class="form-group">
             <input
                 type="text"
