@@ -45,10 +45,39 @@ Vue.use(VueRouter)
 const routes = [
     {
         path: '/',
-        name: 'Demo',
+        name: 'Home',
         component: Home,
         meta: {
-            title: 'Doob || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Lunar Labs Media: Website Design | Development | Louisville KY',
+            metaTags: [
+                {
+                    name: 'description',
+                    content:
+                        'Lunar Labs is a web development and website as a service agency located in Louisville KY. We specialize in website design, development, and SEO.',
+                },
+                {
+                    property: 'og:title',
+                    content:
+                        'Lunar Labs Media: Website Design | Development | Louisville KY',
+                },
+                {
+                    property: 'og:description',
+                    content:
+                        'Lunar Labs is a web development and website as a service agency located in Louisville KY. We specialize in website design, development, and SEO.',
+                },
+                {
+                    property: 'og:url',
+                    content: 'https://lunarlabsmedia.com/',
+                },
+                {
+                    property: 'og:locale',
+                    content: 'en',
+                },
+                {
+                    property: 'og:type',
+                    content: 'LocalBusiness',
+                },
+            ],
         },
     },
     {
@@ -59,14 +88,7 @@ const routes = [
             title: 'Button || Doob Business and Consulting Bootstrap5 Template',
         },
     },
-    {
-        path: '/about',
-        name: 'About',
-        component: About,
-        meta: {
-            title: 'About || Doob Business and Consulting Bootstrap5 Template',
-        },
-    },
+
     {
         path: '/service',
         name: 'Service',
@@ -304,7 +326,36 @@ const routes = [
         name: 'Contact',
         component: ContactPage,
         meta: {
-            title: 'Contact || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Contact Us | Lunar Labs - Web Design &amp; Development',
+            metaTags: [
+                {
+                    name: 'description',
+                    content:
+                        'Feel free to contact us with any questions or requests concerning any of Lunar Lab&#039;s services and we will get back to you as soon as possible.',
+                },
+                {
+                    property: 'og:title',
+                    content:
+                        'Contact Us | Lunar Labs - Web Design &amp; Development',
+                },
+                {
+                    property: 'og:description',
+                    content:
+                        'Feel free to contact us with any questions or requests concerning any of Lunar Lab&#039;s services and we will get back to you as soon as possible.',
+                },
+                {
+                    property: 'og:url',
+                    content: 'https://lunarlabsmedia.com/contact',
+                },
+                {
+                    property: 'og:locale',
+                    content: 'en',
+                },
+                {
+                    property: 'og:type',
+                    content: '',
+                },
+            ],
         },
     },
     {
