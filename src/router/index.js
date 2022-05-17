@@ -53,7 +53,7 @@ const routes = [
                 {
                     name: 'description',
                     content:
-                        'Lunar Labs is a web development and website as a service agency located in Louisville KY. We specialize in website design, development, and SEO.',
+                        'Lunar Labs Media is a web development and website as a service agency located in Louisville KY. We specialize in website design, development, and SEO.',
                 },
                 {
                     property: 'og:title',
@@ -63,7 +63,7 @@ const routes = [
                 {
                     property: 'og:description',
                     content:
-                        'Lunar Labs is a web development and website as a service agency located in Louisville KY. We specialize in website design, development, and SEO.',
+                        'Lunar Labs Media is a web development and website as a service agency located in Louisville KY. We specialize in website design, development, and SEO.',
                 },
                 {
                     property: 'og:url',
