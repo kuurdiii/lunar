@@ -23,6 +23,19 @@
         <meta property="og:url" content="https://lunarlabsmedia.com/" />
     </head>
     <body>
+        <!--dummy form so netlify knows what's coming-->
+
+        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+            <input type="text" name="fullname" />
+
+            <input type="email" name="email" />
+
+            <input type="text" name="phone" />
+
+            <input type="text" name="subject" />
+
+            <textarea name="message"> </textarea>
+        </form>
         <noscript>
             <strong
                 >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't
