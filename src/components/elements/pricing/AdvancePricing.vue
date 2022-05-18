@@ -8,11 +8,10 @@
                         <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
                             quisquam.</p>
                         <div class="price-wrapper">
-                            <span class="price-amount">$129 <sup>/mo</sup></span>
+                            <span class="price-amount">$150 <sup>/mo</sup></span>
                         </div>
                         <div class="pricing-btn-group">
-                            <a href="#" class="btn-default">Purchase Now</a>
-                            <a href="#" class="btn-default btn-border">Upgrade</a>
+                            <a href="#" class="btn-default">GET IN TOUCH</a>
                         </div>
                         <div class="rating">
                             <a href="#rating">
@@ -31,7 +30,7 @@
                                 <Icon name="star"/>
                             </a>
                         </div>
-                        <span class="subtitle">rated 4.5/5 Stars in 1000+ reviews.</span>
+                        <span class="subtitle">rated 4.5/5 Stars in 10+ reviews.</span>
                     </div>
                 </div>
                 <div class="col-lg-6">

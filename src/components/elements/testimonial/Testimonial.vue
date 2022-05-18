@@ -22,7 +22,7 @@
                 <div class="row align-items-center row--20">
                     <div class="order-2 order-md-1 col-lg-6 col-md-8 offset-lg-1">
                         <div class="content mt_sm--40">
-                            <span class="form">{{ testimonial.form }}</span>
+                            <span class="form">{{ testimonial.from }}</span>
                             <p class="description">{{ testimonial.description }}</p>
                             <div class="client-info">
                                 <h4 class="title">{{ testimonial.name }}</h4>
@@ -50,7 +50,7 @@
                     <div class="row align-items-center row--20">
                         <div class="order-2 order-md-1 col-lg-6 col-md-8 offset-lg-1">
                             <div class="content mt_sm--40">
-                                <span class="form">{{ item.form }}</span>
+                                <span class="form">{{ item.from }}</span>
                                 <p class="description">{{ item.description }}</p>
                                 <div class="client-info">
                                     <h4 class="title">{{ item.name }}</h4>

@@ -19,7 +19,7 @@
             brandList: {},
             brandStyle: {
                 type: Number,
-                default: 1
+                default: 2
             }
         }
     }

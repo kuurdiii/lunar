@@ -26,8 +26,8 @@
                                     data-aos="fade-up"
                                     data-aos-delay="200"
                                 >
-                                    Getting you up and running, and keeping you
-                                    evolving to meet changing trends, is
+                                    Getting you up and running and keeping you
+                                    evolving to meet changing trends is
                                     effortless with us.
                                 </p>
                                 <div
@@ -83,9 +83,7 @@
             </div>
         </div>
         <!-- End Counterup Area -->
-
         <Separator />
-
         <!-- Start Service Area -->
         <div class="service-area rn-section-gapTop">
             <div class="container">
@@ -93,21 +91,22 @@
                     <div class="col-lg-6">
                         <div class="content" data-aos="fade-up">
                             <h3 class="title">
-                                We are creative digital agency working for our
-                                company brands.
+                                An innovative way to build, manage and mainatin
+                                your website.
                             </h3>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <p class="mb--10" data-aos="fade-up">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quod, quis. Ullam accusantium dignissimos
-                            repellendus nemo fugiat numquam, nisi odio adipisci.
-                            Veniam neque itaque expedita officiis rem ipsa!
-                            Ratione, rem reiciendis?
+                            Almost all of us pay monthly fees for our
+                            smartphones and cellular service. The expense of
+                            buying the phone upfront is steep. Our
+                            Website-as-a-Service (WaaS) plan operates in the
+                            same way. It provides you with a premium website for
+                            a low monthly fee with no upfront costs.
                         </p>
                         <div class="readmore-btn" data-aos="fade-up">
-                            <router-link class="btn-read-more" to="#">
+                            <router-link class="btn-read-more" to="/service">
                                 <span>View More</span>
                             </router-link>
                         </div>
@@ -117,31 +116,23 @@
         </div>
         <!-- End Service Area -->
 
-        <!-- Start Service Area -->
-        <div class="rn-service-area rn-section-gapTop">
+        <!-- Start Tab Area  -->
+        <div class="rwt-advance-tab-area rn-section-gap">
             <div class="container">
-                <div class="row">
+                <div class="row mb--40">
                     <div class="col-lg-12">
                         <SectionTitle
-                            text-align="center"
-                            subtitle="What we can do for you"
-                            title="Services provide for you."
+                            textAlign="center"
+                            subtitle="You can Customize All"
+                            title="Advance Tab Style One"
                             data-aos="fade-up"
                         />
                     </div>
                 </div>
-                <ServiceOne
-                    service-style="service__style--1 icon-circle-style"
-                    text-align="center"
-                    icon-size="39"
-                />
+                <AdvancedTab :tab-data="tabData" />
             </div>
         </div>
-        <!-- End Service Area -->
-
-        <AboutFour
-            :image="require(`@/assets/images/about/contact-image.jpg`)"
-        />
+        <!-- End Tab Area  -->
 
         <!-- Start Pricing Area -->
         <div class="rwt-pricingtable-area rn-section-gapBottom">
@@ -164,28 +155,28 @@
             </div>
         </div>
         <!-- End Pricing Area -->
-
-        <!-- Start Brand Area -->
-        <div class="rwt-brand-area rn-section-gapBottom">
+        <Separator />
+        <!-- Start Elements Area -->
+        <div class="rwt-elements-area rn-section-gap">
             <div class="container">
-                <div class="row">
+                <div class="row mb--20">
                     <div class="col-lg-12">
                         <SectionTitle
                             text-align="center"
-                            subtitle="Our Awesome Client"
-                            title="Our Awesome Client."
+                            subtitle="Client Feedback"
+                            title="Testimonial"
                             data-aos="fade-up"
+                            data-aos-delay="60"
                         />
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12 mt--40">
-                        <Brand :brand-list="brandList" />
-                    </div>
-                </div>
+                <Testimonial
+                    :testimonial="testimonialData5"
+                    :testimonial-style="5"
+                />
             </div>
         </div>
-        <!-- End Brand Area -->
+        <!-- End Elements Area -->
     </Layout>
 </template>
 
@@ -193,67 +184,96 @@
 import Layout from '../components/common/Layout'
 import Separator from '../components/elements/separator/Separator'
 import SectionTitle from '../components/elements/sectionTitle/SectionTitle'
-import AboutFour from '../components/elements/about/AboutFour'
 import AdvancePricing from '../components/elements/pricing/AdvancePricing'
-import Brand from '../components/elements/brand/Brand'
 import Counter from '../components/elements/counterUp/Counter'
 import ServiceOne from '../components/elements/service/ServiceOne'
+import AdvancedTab from '../components/elements/tab/AdvancedTab'
+import Testimonial from '../components/elements/testimonial/Testimonial'
+
 export default {
     name: 'Home',
     components: {
         ServiceOne,
         Counter,
-        Brand,
         AdvancePricing,
-        AboutFour,
         SectionTitle,
         Separator,
         Layout,
+        AdvancedTab,
+        Testimonial,
     },
     data() {
         return {
-            brandList: [
+            testimonialData5: [
                 {
-                    image: require(`@/assets/images/brand/brand-01.png`),
+                    from: 'USA',
+                    description:
+                        'Fantastic high quality work. Would recommend to anyone. If you’re a startup in need of a website, this is your guy!!',
+                    name: 'Nash',
+                    subtitle: 'Cleaning Business Owner',
+                    image: 'testimonial-dark-01',
                 },
                 {
-                    image: require(`@/assets/images/brand/brand-02.png`),
+                    from: 'Germany',
+                    description:
+                        'What I am primarily looking for with new projects is a fit on both a visual and aesthetic level as well as on a personal level with the client.',
+                    name: 'John Due',
+                    subtitle: 'App Developer',
+                    image: 'testimonial-dark-02',
                 },
                 {
-                    image: require(`@/assets/images/brand/brand-03.png`),
-                },
-                {
-                    image: require(`@/assets/images/brand/brand-04.png`),
-                },
-                {
-                    image: require(`@/assets/images/brand/brand-05.png`),
-                },
-                {
-                    image: require(`@/assets/images/brand/brand-06.png`),
-                },
-                {
-                    image: require(`@/assets/images/brand/brand-07.png`),
-                },
-                {
-                    image: require(`@/assets/images/brand/brand-08.png`),
+                    from: 'USA',
+                    description:
+                        'What I am primarily looking for with new projects is a fit on both a visual and aesthetic level as well as on a personal level with the client.',
+                    name: 'Janen',
+                    subtitle: 'App Developer',
+                    image: 'testimonial-dark-03',
                 },
             ],
+            tabData: {
+                tabContent: [
+                    {
+                        id: 1,
+                        menu: 'market-research',
+                        title: 'Market Research.',
+                        description:
+                            'Use Doob template you can build a corporate website a short time.',
+                        image: require(`@/assets/images/tab/tabs-02.jpg`),
+                    },
+                    {
+                        id: 2,
+                        menu: 'corporate-report',
+                        title: 'Corporate Report.',
+                        description:
+                            'Use Doob template you can build a corporate website a short time.',
+                        image: require(`@/assets/images/tab/tabs-03.jpg`),
+                    },
+                    {
+                        id: 3,
+                        menu: 'app-development',
+                        title: 'App Development.',
+                        description:
+                            'Use Doob template you can build a corporate website a short time.',
+                        image: require(`@/assets/images/tab/tabs-04.jpg`),
+                    },
+                ],
+            },
             counterData: [
                 {
-                    number: 199,
+                    number: 35,
                     title: 'Happy Clients',
                 },
                 {
-                    number: 575,
-                    title: 'Employees',
+                    number: 80,
+                    title: 'Completed Projects',
                 },
                 {
-                    number: 69,
-                    title: 'Useful Programs',
+                    number: 5,
+                    title: 'Expertise Years',
                 },
                 {
-                    number: 500,
-                    title: 'Useful Programs',
+                    number: 30,
+                    title: 'Million Impressions',
                 },
             ],
         }
