@@ -47,12 +47,7 @@
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
                                         <li>
-                                            <router-link to="/about"
-                                                >About</router-link
-                                            >
-                                        </li>
-                                        <li>
-                                            <router-link to="/portfolio"
+                                            <router-link to="/"
                                                 >Portfolio</router-link
                                             >
                                         </li>
@@ -62,7 +57,7 @@
                                             >
                                         </li>
                                         <li>
-                                            <router-link to="/service"
+                                            <router-link to="/"
                                                 >Service</router-link
                                             >
                                         </li>
@@ -70,104 +65,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                            <div class="rn-footer-widget">
-                                <div class="widget-menu-top">
-                                    <h4 class="title">Solutions</h4>
-                                    <div class="inner">
-                                        <ul class="footer-link link-hover">
-                                            <li>
-                                                <router-link to="/brand"
-                                                    >Brand</router-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <router-link
-                                                    to="/call-to-action"
-                                                    >call To Action</router-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <router-link to="/counter"
-                                                    >Counter</router-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <router-link to="/service"
-                                                    >Service</router-link
-                                                >
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                            <div class="rn-footer-widget">
-                                <h4 class="title">Company</h4>
-                                <div class="inner">
-                                    <ul class="footer-link link-hover">
-                                        <li>
-                                            <router-link to="/pricing"
-                                                >Pricing</router-link
-                                            >
-                                        </li>
-                                        <li>
-                                            <router-link to="/tab"
-                                                >Tab Styles</router-link
-                                            >
-                                        </li>
-                                        <li>
-                                            <router-link to="/service"
-                                                >Service</router-link
-                                            >
-                                        </li>
-                                        <li>
-                                            <router-link to="/social-share"
-                                                >Social</router-link
-                                            >
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                            <div class="rn-footer-widget">
-                                <h4 class="title">Resources</h4>
-                                <div class="inner">
-                                    <ul class="footer-link link-hover">
-                                        <li>
-                                            <router-link to="/team"
-                                                >Team</router-link
-                                            >
-                                        </li>
-                                        <li>
-                                            <router-link to="/testimonial"
-                                                >Testimonial</router-link
-                                            >
-                                        </li>
-                                        <li>
-                                            <router-link to="/service"
-                                                >Service</router-link
-                                            >
-                                        </li>
-                                        <li>
-                                            <router-link to="/timeline"
-                                                >Timeline</router-link
-                                            >
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="rn-footer-widget">
-                                <h4 class="title">Stay With Us.</h4>
+                                <h4 class="title">Let's Connect</h4>
                                 <div class="inner">
-                                    <h6 class="subtitle">
-                                        2000+ Our clients are subscribe Around
-                                        the World
-                                    </h6>
                                     <ul
                                         class="social-icon social-default justify-content-start"
                                     >
@@ -197,7 +99,7 @@
                                         </li>
                                         <li>
                                             <a
-                                                href="https://www.linkedin.com/"
+                                                href="https://www.linkedin.com/company/lunar-labs-media/"
                                                 target="_blank"
                                             >
                                                 <Icon name="linkedin" />
