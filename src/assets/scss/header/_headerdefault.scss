@@ -1,7 +1,7 @@
 /*--------------------------
     Header Styles  
  --------------------------*/
- .logo-dark {
+.logo-dark {
     display: none;
 }
 
@@ -22,12 +22,11 @@
             img {
                 height: auto;
                 width: 240px;
-                max-width: 100% ;
-
+                max-width: 100%;
             }
         }
     }
-    
+
     .header-right {
         display: flex;
         flex-wrap: wrap;
@@ -52,7 +51,7 @@
             }
         }
     }
-    a ,
+    a,
     button {
         &.btn-default {
             @media #{$sm-layout} {
@@ -81,8 +80,6 @@
         backdrop-filter: inherit;
     }
 }
-
-
 
 .header-transparent-with-topbar {
     position: absolute;
@@ -117,8 +114,6 @@
     }
 }
 
-
-
 .hamberger-button {
     background: var(--color-blackest);
     border: 0 none;
@@ -138,8 +133,6 @@
     }
 }
 
-
-
 .rn-header.sticky {
     position: fixed;
     top: 0;
@@ -147,7 +140,7 @@
     background-color: var(--color-dark) !important;
     width: 100%;
     height: 80px;
-    animation: headerSticky .95s ease forwards;
+    animation: headerSticky 0.95s ease forwards;
     z-index: 9;
 }
 
