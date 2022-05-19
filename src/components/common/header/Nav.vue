@@ -4,15 +4,15 @@
             <router-link to="/"> Home </router-link>
         </li>
 
-       <!--  <li>
-            <router-link to="/service"> Services </router-link>
+         <li>
+            <router-link to="/"> Services </router-link>
         </li>
         <li>
-            <router-link to="/portfolio"> Projects </router-link>
+            <router-link to="/"> Projects </router-link>
         </li>
         <li>
-            <router-link to="/blog-default"> Blog </router-link>
-        </li>-->
+            <router-link to="/"> Blog </router-link>
+        </li>
     </ul>
 </template>
 

@@ -20,7 +20,10 @@
             line-height: 80px;
             align-items: center;
             img {
-                max-height: 45px;
+                height: auto;
+                width: 240px;
+                max-width: 100% ;
+
             }
         }
     }
