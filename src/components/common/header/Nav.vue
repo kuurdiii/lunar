@@ -4,7 +4,7 @@
             <router-link to="/"> Home </router-link>
         </li>
 
-        <li>
+       <!--  <li>
             <router-link to="/service"> Services </router-link>
         </li>
         <li>
@@ -12,7 +12,7 @@
         </li>
         <li>
             <router-link to="/blog-default"> Blog </router-link>
-        </li>
+        </li>-->
     </ul>
 </template>
 

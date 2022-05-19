@@ -24,28 +24,13 @@
         </section>
         <!-- End Service Area -->
 
-
-        
-
         <!-- Start Elements Area -->
         <div class="rwt-callto-action-area rn-section-gapBottom">
             <div class="wrapper">
-                <div class="row">
-                    <div class="col-lg-12 mb--40">
-                        <SectionTitle
-                            text-align="center"
-                            subtitle="Call To Action"
-                            title="Style Five"
-                            data-aos="fade-up"
-                            data-aos-delay="60"
-                        />
-                    </div>
-                </div>
                 <CallToAction
                     :style-type="5"
-                    title="Ready to start creating a standard website?"
-                    subtitle="Finest choice for your home & office"
-                    btn-text="Purchase Doob"
+                    title="Ready to get started?"
+                    btn-text="Get In Touch"
                 />
             </div>
         </div>
