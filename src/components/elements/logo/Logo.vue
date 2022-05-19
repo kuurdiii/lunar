@@ -1,8 +1,8 @@
 <template>
     <div class="logo">
         <router-link :to="url">
-            <img class="logo-light" :src="lightLogo" alt="Corporate Logo"/>
-            <img class="logo-dark" :src="darkLogo" alt="Corporate Logo"/>
+            <img class="logo-light" :src="lightLogo" alt="Lunar Labs"/>
+            <img class="logo-dark" :src="darkLogo" alt="Lunar Labs"/>
         </router-link>
     </div>
 </template>

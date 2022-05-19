@@ -4,84 +4,91 @@
             <div class="row row--0">
                 <div class="col-lg-6">
                     <div class="pricing-left">
-                        <h3 class="main-title">Active Plan Mode.</h3>
-                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
-                            quisquam.</p>
+                        <h3 class="main-title">Lunar Standard</h3>
+
                         <div class="price-wrapper">
-                            <span class="price-amount">$150 <sup>/mo</sup></span>
+                            <span class="price-amount"
+                                >$150 <sup>/mo</sup></span
+                            >
                         </div>
                         <div class="pricing-btn-group">
                             <a href="#" class="btn-default">GET IN TOUCH</a>
                         </div>
                         <div class="rating">
                             <a href="#rating">
-                                <Icon name="star"/>
+                                <Icon name="star" />
                             </a>
                             <a href="#rating">
-                                <Icon name="star"/>
+                                <Icon name="star" />
                             </a>
                             <a href="#rating">
-                                <Icon name="star"/>
+                                <Icon name="star" />
                             </a>
                             <a href="#rating">
-                                <Icon name="star"/>
+                                <Icon name="star" />
                             </a>
                             <a href="#rating">
-                                <Icon name="star"/>
+                                <Icon name="star" />
                             </a>
                         </div>
-                        <span class="subtitle">rated 4.5/5 Stars in 10+ reviews.</span>
+                        <span class="subtitle"
+                            >rated 4.5/5 Stars in 10+ reviews.</span
+                        >
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="pricing-right">
                         <div class="pricing-offer">
                             <div class="single-list">
-                                <h4 class="price-title">Advance Plans You can Get.</h4>
+                                <h4 class="price-title">
+                                    Advance Plans You can Get.
+                                </h4>
                                 <ul class="plan-offer-list">
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         5 PPC Campaigns
                                     </li>
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         Digital Marketing
                                     </li>
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         Marketing Agency
                                     </li>
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         Seo Friendly
                                     </li>
                                 </ul>
                             </div>
                             <div class="single-list mt--40">
-                                <h4 class="price-title">Basic Plans Uou can Get.</h4>
+                                <h4 class="price-title">
+                                    Basic Plans Uou can Get.
+                                </h4>
                                 <ul class="plan-offer-list">
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         5 PPC Campaigns
                                     </li>
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         Digital Marketing
                                     </li>
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         Marketing Agency
                                     </li>
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         Seo Friendly
                                     </li>
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         App Development
                                     </li>
                                     <li>
-                                        <Icon name="check" size="18"/>
+                                        <Icon name="check" size="18" />
                                         Social Development
                                     </li>
                                 </ul>
@@ -95,10 +102,10 @@
 </template>
 
 <script>
-    import Icon from '../../icon/Icon'
+import Icon from '../../icon/Icon'
 
-    export default {
-        name: 'AdvancePricing',
-        components: {Icon}
-    }
+export default {
+    name: 'AdvancePricing',
+    components: { Icon },
+}
 </script>

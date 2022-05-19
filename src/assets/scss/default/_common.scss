@@ -4,7 +4,14 @@
 
 /* Theme Gradient */
 .theme-gradient {
-    background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98% / 200% 100%;
+    background: linear-gradient(
+            95deg,
+            var(--color-primary) 15%,
+            var(--color-tertiary) 45%,
+            var(--color-pink) 75%,
+            var(--color-secondary) 100%
+        )
+        98% / 200% 100%;
     text-transform: capitalize;
     -webkit-background-clip: text;
     background-clip: text;
@@ -13,7 +20,12 @@
 
 .bg-theme-gradient {
     background-color: transparent;
-    background-image: linear-gradient(90deg, var(--color-primary-lightest) 10%, var(--color-primary-alt) 50%, var(--color-tertiary-alt) 90%);
+    background-image: linear-gradient(
+        90deg,
+        var(--color-primary-lightest) 10%,
+        var(--color-primary-alt) 50%,
+        var(--color-tertiary-alt) 90%
+    );
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -25,30 +37,28 @@
 
 /* Heading Font  */
 .h1 {
-    font-size: var(--h1) !important
+    font-size: var(--h1) !important;
 }
 
 .h2 {
-    font-size: var(--h2) !important
+    font-size: var(--h2) !important;
 }
 
 .h3 {
-    font-size: var(--h3) !important
+    font-size: var(--h3) !important;
 }
 
 .h4 {
-    font-size: var(--h4) !important
+    font-size: var(--h4) !important;
 }
 
 .h5 {
-    font-size: var(--h5) !important
+    font-size: var(--h5) !important;
 }
 
 .h6 {
-    font-size: var(--h6) !important
+    font-size: var(--h6) !important;
 }
-
-
 
 /* Text Color  */
 
@@ -164,9 +174,6 @@
     @extend %color-white;
 }
 
-
-
-
 //===== BG Ncc Colors =====//
 
 .bg-primary-color {
@@ -174,11 +181,11 @@
 }
 
 .bg-secondary-color {
-    background: var(--color-secondary)
+    background: var(--color-secondary);
 }
 
 .bg-tertiary-color {
-    background-color: var(--color-tertiary)
+    background-color: var(--color-tertiary);
 }
 
 .bg-color-primary {
@@ -290,10 +297,12 @@
 }
 
 .hero-bg {
-box-shadow: 0 0 10px 0px var(--color-black);
+    box-shadow: 0 0 10px 0px var(--color-black);
 }
 
-
+.w-full {
+    width: 100%;
+}
 /* Radius */
 .radius-small {
     @extend %radius-small;
@@ -306,7 +315,6 @@ box-shadow: 0 0 10px 0px var(--color-black);
 .radius-big {
     @extend %radius-big;
 }
-
 
 /* Font Weight */
 
@@ -338,8 +346,6 @@ box-shadow: 0 0 10px 0px var(--color-black);
     @extend %w-900;
 }
 
-
-
 /* Shadows */
 
 .shadow-primary {
@@ -353,8 +359,6 @@ box-shadow: 0 0 10px 0px var(--color-black);
 .shadow-lighter {
     @extend %shadow-lighter;
 }
-
-
 
 /* Others  */
 .liststyle {
@@ -374,7 +378,6 @@ box-shadow: 0 0 10px 0px var(--color-black);
 .transition-transform {
     @extend %transition-transform;
 }
-
 
 .list-icon {
     list-style: none;
@@ -424,6 +427,3 @@ box-shadow: 0 0 10px 0px var(--color-black);
     background-color: var(--color-blackest);
     box-shadow: var(--shadow-lighter);
 }
-
-
-

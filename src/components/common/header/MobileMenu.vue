@@ -4,8 +4,8 @@
             <div class="header-top">
                 <div class="logo">
                     <router-link to="/">
-                        <img class="logo-light" src="../../../assets/images/logo/logo.png" alt="Corporate Logo">
-                        <img class="logo-dark" src="../../../assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                        <img class="logo-light" src="../../../assets/images/logo/logo.png" alt="Lunar Labs">
+                        <img class="logo-dark" src="../../../assets/images/logo/logo-dark.png" alt="Lunar Labs">
                     </router-link>
                 </div>
                 <div class="close-menu">

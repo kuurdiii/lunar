@@ -120,41 +120,32 @@
         <div class="rwt-advance-tab-area rn-section-gap">
             <div class="container">
                 <div class="row mb--40">
-                    <div class="col-lg-12">
-                        <SectionTitle
-                            textAlign="center"
-                            subtitle="You can Customize All"
-                            title="Advance Tab Style One"
-                            data-aos="fade-up"
-                        />
-                    </div>
+                    <div class="col-lg-12"></div>
                 </div>
                 <AdvancedTab :tab-data="tabData" />
             </div>
         </div>
         <!-- End Tab Area  -->
-
-        <!-- Start Pricing Area -->
-        <div class="rwt-pricingtable-area rn-section-gapBottom">
+        <Separator />
+        <!-- Start Elements Area -->
+        <div class="rwt-pricing-area rn-section-gap">
             <div class="container">
-                <div class="row">
+                <div class="row mb--40 mb_sm--0">
                     <div class="col-lg-12">
                         <SectionTitle
                             text-align="center"
-                            subtitle="Our Pricing Plan"
-                            title="Web Pricing Plan."
+                            subtitle="Website as a service"
+                            title="Our Pricing Plans"
                             data-aos="fade-up"
+                            data-aos-delay="60"
                         />
                     </div>
                 </div>
-                <div class="row mt--30">
-                    <div class="col-lg-8 offset-lg-2">
-                        <AdvancePricing />
-                    </div>
-                </div>
+                <Pricing :pricing-data="pricingThreeData" :pricing-style="3" />
             </div>
         </div>
-        <!-- End Pricing Area -->
+        <!-- End Elements Area -->
+
         <Separator />
         <!-- Start Elements Area -->
         <div class="rwt-elements-area rn-section-gap">
@@ -164,7 +155,7 @@
                         <SectionTitle
                             text-align="center"
                             subtitle="Client Feedback"
-                            title="Testimonial"
+                            title="Testimonials"
                             data-aos="fade-up"
                             data-aos-delay="60"
                         />
@@ -184,7 +175,7 @@
 import Layout from '../components/common/Layout'
 import Separator from '../components/elements/separator/Separator'
 import SectionTitle from '../components/elements/sectionTitle/SectionTitle'
-import AdvancePricing from '../components/elements/pricing/AdvancePricing'
+import Pricing from '../components/elements/pricing/Pricing'
 import Counter from '../components/elements/counterUp/Counter'
 import ServiceOne from '../components/elements/service/ServiceOne'
 import AdvancedTab from '../components/elements/tab/AdvancedTab'
@@ -195,7 +186,7 @@ export default {
     components: {
         ServiceOne,
         Counter,
-        AdvancePricing,
+        Pricing,
         SectionTitle,
         Separator,
         Layout,
@@ -211,50 +202,71 @@ export default {
                         'Fantastic high quality work. Would recommend to anyone. If you’re a startup in need of a website, this is your guy!!',
                     name: 'Nash',
                     subtitle: 'Cleaning Business Owner',
-                    image: 'testimonial-dark-01',
+                    image: 'nash',
+                },
+            ],
+            pricingThreeData: [
+                {
+                    title: 'Premium',
+                    currency: '$',
+                    price: '299',
+                    subtitle: 'USD Per Month',
+                    features: [
+                        { title: 'Everything in standard' },
+                        { title: '1 Blog Post Per Month' },
+                        { title: '1000+ Word Blog Posts' },
+                        { title: 'Written By SEO Specialists' },
+                        { title: '$150 Per Extra Post' },
+                    ],
+                    btn: {
+                        text: 'Get In Touch',
+                        link: '/contact',
+                    },
                 },
                 {
-                    from: 'Germany',
-                    description:
-                        'What I am primarily looking for with new projects is a fit on both a visual and aesthetic level as well as on a personal level with the client.',
-                    name: 'John Due',
-                    subtitle: 'App Developer',
-                    image: 'testimonial-dark-02',
-                },
-                {
-                    from: 'USA',
-                    description:
-                        'What I am primarily looking for with new projects is a fit on both a visual and aesthetic level as well as on a personal level with the client.',
-                    name: 'Janen',
-                    subtitle: 'App Developer',
-                    image: 'testimonial-dark-03',
+                    title: 'Standard',
+                    currency: '$',
+                    price: '149',
+                    subtitle: 'USD Per Month',
+                    features: [
+                        { title: 'Logo Branding' },
+                        { title: 'Web Hosting' },
+                        { title: 'Lifetime Updates' },
+                        { title: 'Unlimited Edits' },
+                        { title: 'HTTPS Encryption' },
+                    ],
+                    btn: {
+                        text: 'Get In Touch',
+                        link: '/contact',
+                    },
+                    isActive: true,
                 },
             ],
             tabData: {
                 tabContent: [
                     {
                         id: 1,
-                        menu: 'market-research',
-                        title: 'Market Research.',
+                        menu: 'hosting-included',
+                        title: 'Fast and Secure Hosting',
                         description:
-                            'Use Doob template you can build a corporate website a short time.',
-                        image: require(`@/assets/images/tab/tabs-02.jpg`),
+                            'Count on 99.9% uptime, automatic SSL encryption. Hosting fees are built right into the monthly payment.',
+                        image: require(`@/assets/images/tab/hosting.png`),
                     },
                     {
                         id: 2,
-                        menu: 'corporate-report',
-                        title: 'Corporate Report.',
+                        menu: 'mobile-responsive',
+                        title: 'Mobile Responsive',
                         description:
-                            'Use Doob template you can build a corporate website a short time.',
-                        image: require(`@/assets/images/tab/tabs-03.jpg`),
+                            'Our team builds your site for mobile devices first, then expands it to make it suitable for tablets and desktop computers.',
+                        image: require(`@/assets/images/tab/mobile.png`),
                     },
                     {
                         id: 3,
-                        menu: 'app-development',
-                        title: 'App Development.',
+                        menu: 'search-optimized',
+                        title: 'Search Optimized',
                         description:
-                            'Use Doob template you can build a corporate website a short time.',
-                        image: require(`@/assets/images/tab/tabs-04.jpg`),
+                            'Keeping your website updated with the Google search algorithm is important so it never goes out of date.',
+                        image: require(`@/assets/images/tab/updates.png`),
                     },
                 ],
             },

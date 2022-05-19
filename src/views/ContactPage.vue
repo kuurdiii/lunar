@@ -7,8 +7,8 @@
                     <div class="col-lg-12 mb--40">
                         <SectionTitle
                             text-align="center"
-                            subtitle="Contact Form"
-                            title="Our Contact Address Here"
+                            subtitle="Contact Us"
+                            title="Let's Connect"
                         />
                     </div>
                 </div>
@@ -61,11 +61,8 @@
                 </div>
 
                 <div class="row mt--40 row--15">
-                    <div class="col-lg-7">
+                    <div class="col-lg-12">
                         <ContactForm />
-                    </div>
-                    <div class="col-lg-5 mt_md--30 mt_sm--30">
-                        <GoogleMap />
                     </div>
                 </div>
             </div>
