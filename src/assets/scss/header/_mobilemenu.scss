@@ -37,9 +37,12 @@
 
       .logo {
         a {
-          img {
-            max-height: 45px;
-          }
+            img {
+                height: auto;
+                width: 240px;
+                max-width: 100%;
+
+            }
         }
       }
 

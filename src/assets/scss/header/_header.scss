@@ -15,7 +15,10 @@
             height: 80px;
             line-height: 80px;
             img {
-                max-height: 40px;
+                height: auto;
+                width: 240px;
+                max-width: 100% ;
+
             }
         }
     }
