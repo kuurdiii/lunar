@@ -43,7 +43,7 @@
                                                 )
                                             "
                                         >
-                                            <Icon name="menu" size="21" />
+                                            <Icon name="menu" size="25" />
                                         </button>
                                     </div>
                                 </div>
