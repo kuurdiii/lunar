@@ -48,8 +48,8 @@
                                             </h4>
                                             <p>
                                                 <a
-                                                    href="mailto:lunarlabsmedia@gmail.com"
-                                                    >lunarlabsmedia@gmail.com</a
+                                                    href="mailto:hello@lunarlabsmedia.com"
+                                                    >hello@lunarlabsmedia.com</a
                                                 >
                                             </p>
                                         </div>
